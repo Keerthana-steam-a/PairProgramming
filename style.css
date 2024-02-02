@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-image: url('/asset/watch.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}

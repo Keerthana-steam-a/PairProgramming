@@ -1,9 +1,19 @@
-body {
-    margin: 0;
-    overflow: hidden;
-    background-image: url('/asset/watch.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
+*{
+    margin:0;
+    padding:0;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.container .column1{
+    flex-basis:50%;
+    background-color:blue;
+    
+    text-align:center;
+}
+.container .column2{
+    flex-basis:50%;
+    background-color:rgb(255, 255, 255);
 }
